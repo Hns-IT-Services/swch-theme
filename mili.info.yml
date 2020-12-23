@@ -1,15 +1,15 @@
-name: Mili
+name: sw-theme
 type: theme
 base theme: stable
-description: 'Mili is a light weight drupal 8 theme by <a href="https://www.drupar.com" target="_blank">drupar.com</a>'
+description: 'Based on a the Mili thrme. Mili is a light weight drupal 8 theme by <a href="https://www.drupar.com" target="_blank">drupar.com</a>'
 package: Core
 core_version_requirement: ^8 || ^9
 # Comment version before uploading to drupal.org
 # version: 8.2.0
 # Libraries
 libraries:
-  - mili/global-styling # Library for all global css. These css will be loaded on every pages.
-  - mili/global-scripts # Library for all global js. These js will be loaded on every pages.
+  - sw-theme/global-styling # Library for all global css. These css will be loaded on every pages.
+  - sw-theme/global-scripts # Library for all global js. These js will be loaded on every pages.
 regions:
   site_branding: 'Site Branding'
   primary_menu: 'Primary menu'
@@ -31,7 +31,3 @@ regions:
   footer_fourth: 'Footer fourth'
   footer_bottom: 'Footer Bottom'
   hidden_blocks: 'Hidden Blocks'
-# Information added by Drupal.org packaging script on 2020-11-26
-version: '8.x-2.0'
-project: 'mili'
-datestamp: 1606412618
