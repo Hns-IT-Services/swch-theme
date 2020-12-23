@@ -5,7 +5,7 @@ dependencies:
   module:
     - search
   theme:
-    - mili
+    - swch-theme
 id: searchform
 theme: mili
 region: search_box
